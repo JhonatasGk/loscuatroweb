@@ -1,0 +1,200 @@
+:root{
+    --color-bg:linear-gradient(180deg, #202020 0%, #202020 22.4%, #202020 63.54%, #282828 98.44%);
+    --color-bs:0px 4px 4px rgba(0, 0, 0, 0.25);
+    --color-tx:#fff
+    
+}
+*{
+    font-family:Inter,sans-serif,monospace;
+}
+strong{
+    padding: 0px 0px 8px;
+}
+
+img{
+    position: absolute;
+width: 160px;
+height: 58px;
+top: 0px;
+}
+
+.header-menu{
+    background: var(--color-bg);
+    box-shadow: var(--color-bs);
+    position: fixed;
+    width: 100%;
+}
+.nav-menu{
+    position: relative;
+    display: flex;
+    max-width: calc(100% - 500px);
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.content .links li  {
+    list-style: none
+    
+}
+.content .links li a {
+    color: var(--color-tx);
+    font-weight:400;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition:0.5s;
+   
+    
+}
+.nav-menu .content {
+    display: flex;
+    align-items: center;
+}
+.nav-menu .content .links{
+    display: flex;
+    margin-left: 369px;
+}
+
+.nav-menu .content .links  .prom {
+    position: absolute; 
+    opacity: 0;
+    visibility: hidden;
+    width: 230px;
+    height: 240px;
+    top: 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    background-clip: padding-box;
+    padding: 24px !important;
+    top: 100%;
+    z-index: 100;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    left:39.8%;
+    padding: 8px 0px;
+   
+}
+
+#cprom,#ccard {
+    border-top: 1px solid #57606a;
+    padding: 16px 0px 0px;
+    margin: 0px 0px 8px;
+}
+.nav-menu .content .links  .prom a{
+    left: 0.62%;
+    right: 0%;
+    top: 46.28%;
+    bottom: 46.28%;
+    padding: 8px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #57606a;
+     
+}
+.nav-menu .content .links  li a {
+    padding: 25px 0px;
+   
+}
+.nav-menu .content .links .card {
+    position: absolute; 
+    opacity: 0;
+    visibility: hidden;
+    width: 230px;
+    height: 240px;
+    top: 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    background-clip: padding-box;
+    padding: 24px !important;
+    top: 100%;
+    z-index: 100;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    left:57.5%;
+    padding: 8px 0px;
+}
+.nav-menu .content .links  .card a{
+    left: 0.62%;
+    right: 0%;
+    top: 46.28%;
+    bottom: 46.28%;
+    padding: 8px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #57606a;
+}
+.nav-menu ul li a:hover{
+    color:#909090;
+}
+ 
+
+.content .links .proml:hover > .prom,
+.content .links .cardl:hover > .card{
+    top: 68px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.nav-menu .content .links  .prom a:hover,
+.nav-menu .content .links  .card a:hover{
+    color:lightseagreen
+    
+}
+.nav-menu .btnOp{
+    position: absolute;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 5px;
+    width: 135px;
+    height: 25px;
+    top: 22px;
+    background: transparent;
+    color: #fff;
+    transition:0.3s;
+    cursor: pointer;
+    
+    
+}
+.nav-menu .btnOp .buttonimg{
+    position: absolute;
+    left:20%;
+    top: 2px;
+}
+.nav-menu  .btnOp .buttontext {
+    position: absolute;
+    top: 0px;
+}
+.nav-menu  .btnOp:hover {
+    color:#909090;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(0,0,0,0.1)
+}
+/* .btnOp:active ~.art{ 
+    display:block
+    
+}
+ */
+.show{
+    display:block;
+    background:red;
+}
+
+
+
