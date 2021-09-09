@@ -9,7 +9,6 @@ import {FcGoogle} from 'react-icons/fc';
 import {CgCloseO} from 'react-icons/cg';
 import logoImg from './images/logo.png'
 import pizzasvg from './images/pizzavec.svg'
-/* import Abrir from './components/menu-dropdown' */
 
 function Abrir() {
   
