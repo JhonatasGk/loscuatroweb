@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/global.css';
 import './styles/pages/landing-menu.css';
 import './styles/pages/login-page.css';
-
+import {VscChevronDown} from 'react-icons/vsc'
 import {IoPersonCircleOutline } from 'react-icons/io5';
 import {FaFacebook } from 'react-icons/fa';
 import {FcGoogle} from 'react-icons/fc';
@@ -31,7 +31,7 @@ function App() {
          <div className="content">
           <div className="logoMenu"><h1><img src={logoImg} alt="" /></h1></div>
            <ul className="links">  
-             <li className="proml"><a href="/">PROMOÇÕES{/* <VscChevronDown/> */}</a>
+             <li className="proml"><a href="/">PROMOÇÕES<VscChevronDown/></a>
                   <ul className="prom">
                     <a href="/"><strong>Promoções</strong></a>
                     <li><a href="/" id='cprom'>Calendario de promoções</a></li>
@@ -40,7 +40,7 @@ function App() {
                     <li><a href="/">Regulamento</a></li>
                   </ul>
               </li> 
-              <li className="cardl"><a href="/">CARDÁPIO{/* <VscChevronDown/> */}</a>
+              <li className="cardl"><a href="/">CARDÁPIO</a>
                   <ul className="card">
                     <li><a href="/"><strong>Cardápio</strong></a></li>
                     <li><a href="/" id='ccard'>Pizzas tradicionais</a></li>
