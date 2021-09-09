@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/global.css';
 import './styles/pages/landing-menu.css';
 import './styles/pages/login-page.css';
-/* import { VscChevronDown } from 'react-icons/vsc'; */
+
 import {IoPersonCircleOutline } from 'react-icons/io5';
 import {FaFacebook } from 'react-icons/fa';
 import {FcGoogle} from 'react-icons/fc';
