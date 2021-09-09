@@ -21,7 +21,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "yarn add gh-pages",
+    "build": "yarn build",
+    "install": "yarn add",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
