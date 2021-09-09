@@ -5,4 +5,3 @@ window.addEventListener('mouseup', function(event){
         box.style.display = 'none';
     }
 });
-y
